@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
+<!DOCTYPE html> <!--Indetifica a versão 5 do HTML-->
+<html lang="pt-BR"><!--Declara que este trecho do arquivo  representa código HTML-->
+<head> <!--DEclara metainformações sobre a página-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta> name="description" content="Um guia completo sobre HTML e suas tags.">
+    <meta name="description" content="Um guia completo sobre HTML e suas tags.">
     <meta name="keywords" content="HTML, tags, programação, web design">
     <meta name="author" content="Gabrielly">
 
@@ -21,9 +21,14 @@
     <title>Meu primeiro HTML</title>
 </head>
 <body>
-
+    
     <header>
-        <h1> style="font-family: Sagramento, cursive">Bem-vindo ao site!</h1>
+        <h1>Bem-vindo ao site!</h1>
+        <h2> Título</h2>
+        <h3>Substítulo</h3>
+        <h4> Item</h4>
+        <h5>Subitem </h5>
+        <h6>Ponto</h6>
     </header>
     
     <main> 
@@ -32,11 +37,150 @@
     </p>
     <p id="paragrafo" >Cadê o hexa?</p>
     <button id="botao">Clique aqui</button>
+
+    <p>
+        "Minha terra tem palmeiras,<br>
+        Onde canta o Sabiá;<br>
+        As aves, que aqui gorjeiam,,<br>
+        Não gorjeiam como lá.,<br>
+
+    </p>
+       
+    <p>
+        Nosso céu tem mais estrelas,,<br>
+        Nossas várzeas têm mais flores,,<br>
+        Nossos bosques têm mais vida,,<br>
+        Nossa vida mais amores.,<br>
+    </p>
+
+    <p>
+        Em cismar, sozinho, à noite,,<br>
+        Mais prazer encontro eu lá;,<br>
+        Minha terra tem palmeiras,,<br>
+        Onde canta o Sabiá.,<br>
+    </p>
+
+    <p>
+        Minha terra tem primores,,<br>
+        Que tais não encontro eu cá;,<br>
+        Em cismar — sozinho, à noite —,<br>
+        Mais prazer encontro eu lá;,<br>
+        Minha terra tem palmeiras,,<br>
+        Onde canta o  Sabiá.,<br>
+    </p>
+     
+    <p>
+        Não permita <strong>Deus</strong> que eu morra,<br>
+        Sem que eu volte para lá;<br>
+        Sem que desfrute os <mark>primores</mark><br>
+        Que não encontro por cá;<br>
+        Sem qu'inda aviste as <u>palmeiras</u>,<br>
+        Onde canta o <i>Sabiá</i>".<br> 
+    </p>
+
+    <p>Este é um abre chevron &lt;</p>
+    <p>Este é um fecha chevron &gt;</p>
+
+    <h2>Minha lista de Compras</h2>
+    <ul type="circle"> <!--Lista não ordenadas, usadas para itens sem ordem específica-->
+        <!--Cada item da lista e´definido pela tag <li> --> 
+        <li>Maçã</li>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Ovos</li>
+    </ul>
+
+    <ul type ="disc">
+        <li>Item com marcador padrão (disc)</li>
+    </ul>
+
+    <ul type ="circle">
+        <li>Item com marcador de círculo vazio (circle)</li>
+    </ul>
+
+    <ul type ="square">
+        <li>Item com marcador de quadrado cheio</li>
+    </ul>
+
+    <h2>Passo para ligar um Computador</h2>
+    <ol><!--Lista ordenada com os passos simples para ligar um computador-->
+        <!--Cad item e´definido pela tag <li>-->
+        <li>Verificar se ocabo está conectado na tomada </li>
+        <li>Certificar-se de que o cabo de alimentação está conectado no computador. </li>
+        <li>Pressionar o botão de ligar.</li>
+        <li>Aguardar até que a tela de inicialização apareça.</li>
+    </ol>
+
+    <ol start="5" reversed type="1">
+        <li style="color:mediumblue">Item 5</li>
+        <li>Item 6</li>
+        <li>item 7</li>
+    </ol>
+
+    <p>
+        <a  href="https://www.google.com" 
+            target="_blank" 
+            title="Faça buscas na Internet"
+            rel="nofollow noopener"
+        >
+        Visite o google
+        </a>
+    </p>
+    <p>
+        <a href="https://sp.senai.br" 
+           target="_blank" 
+           title="Consulte nossos cursos"
+        >
+            Acesse o portal do Senai
+        </a>
+    </p>
+
+    <p>
+        <a href="https://br.pinterest.com/pin/582934745552975735/"
+        target="_blank"
+        > 
+            <img 
+                src="./baixados.jpg"
+                height="400"
+                alt="um gatinho fofo"
+            >
+        </a>
+    </p>
+
+    <table border="2" cellspacing="1" cellpadding="10" width="80%" align="center"> <!--Elemento tabela-->
+        <tr><!--Elemento linha de tabela (table row)-->
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+            
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>16</td>
+            <td>São Paulo</td>
+        </tr>
+
+        <tr>
+            <td>Ana</td>
+            <td>16</td>
+            <td>São Paulo</td>
+        </tr>
+        
+    </table>
+
     </main>
     
     <footer>
         &copy; 2026 - Todos os direitos reservados
     </footer>
     
+    <script>
+        const paragrafo =documento.querySelector("#paragrafo");
+        const botao = documet.querySelector("#botao");
+        botao.addEventListener("clik", ()=>{
+            paragrafo.innerHTML ="O gato comeu.";
+        });  
+    </script>
+
 </body>
 </html>

@@ -1,0 +1,20 @@
+body{
+    background-color:rgb(151, 99, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+h1{
+    font-size: 24px;
+    color: azure;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(159, 61, 230);
+    color:ghostwhite;
+    border:none;
+    border-radius: 5px;
+}
+#nome{
+    background-color: blue;
+}
