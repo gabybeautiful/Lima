@@ -1,0 +1,33 @@
+ * {
+    background-color: #ff8ba0;
+}
+p{
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #ff7b7b;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul, ol {
+    color:#ffffff;
+    text-align: center;
+}
+

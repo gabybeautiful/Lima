@@ -1,0 +1,9 @@
+body{
+    background-image: url('detalheSite.png');
+    background-color:rgb(223, 241, 243);
+    background-repeat: no-repeat;
+    background-position:enter;
+    background-size:600px;
+    background-attachment:fixed;
+}
+
