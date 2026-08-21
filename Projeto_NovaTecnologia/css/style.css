@@ -86,7 +86,7 @@ header nav ul li a{
     box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
 }
 .carousel-item img{
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
     margin-right: 1px;
     border-radius:8px;
@@ -195,7 +195,7 @@ footer{
     font-size: 18px;
     color:#f5cc00;
 }
-.img{
+img{
     max-width:100%;
 }
 
